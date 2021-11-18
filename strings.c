@@ -15,7 +15,7 @@ int main()
 {
     // char str[] = {'n','i','r','a','j','\0'};
     char str[10]; // =  "niraj";                  
-    gets(str);
+    gets(str); // gets() functions is use for getting string input form user
     printstrig(str);
     printf("using printf function : %s\n", str);
     printf("using puts : ");
