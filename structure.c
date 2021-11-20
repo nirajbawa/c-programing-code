@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-
+// structure is use for make user define data type
 //hare we are define structure and student is a name of structure
 struct student
 {
@@ -20,17 +20,17 @@ void print()
 int printAllData()
 {
     printf("%d\n", harry.id);
-    printf("%d\n", harry.id);
-    printf("%d\n", harry.id);
+    printf("%d\n", ravi.id);
+    printf("%d\n", shubham.id);
     printf("%d\n", harry.marks);      
-    printf("%d\n", harry.marks);
-    printf("%d\n", harry.marks);
+    printf("%d\n", ravi.marks);
+    printf("%d\n", shubham.marks);
     printf("%c\n", harry.fav_char);
-    printf("%c\n", harry.fav_char);
-    printf("%c\n", harry.fav_char);
+    printf("%c\n", ravi.fav_char);
+    printf("%c\n", shubham.fav_char);
     printf("%s\n", harry.name);
-    printf("%s\n", harry.name);
-    printf("%s\n", harry.name);
+    printf("%s\n", ravi.name);
+    printf("%s\n", shubham.name);
 }
 
 int main()
