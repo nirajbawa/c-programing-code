@@ -30,20 +30,20 @@ int main()
     // array and pointer 
 
     int arr[10] = {1,2,3,4,5,6,7,8,9,10};
-    // int *ptraarr = &arr;
-    // printf("%d\n", &ptraarr);
-    printf("value at position of the array is %d\n", arr[3]);
-    printf("the addres of first element of the array is %d \n", &arr[0]);
-    printf("the addres of first element of the array is %d \n", arr);
-    printf("the addres of first element of the array is %d \n", &arr[1]);
-    printf("the addres of first element of the array is %d \n \n", &arr + 1); 
+    int *ptraarr = &arr;
+    printf("%d\n", &ptraarr[1]);
+    // printf("value at position of the array is %d\n", arr[3]);
+    // printf("the addres of first element of the array is %d \n", &arr[0]);
+    // printf("the addres of first element of the array is %d \n", arr);
+    // printf("the addres of first element of the array is %d \n", &arr[1]);
+    // printf("the addres of first element of the array is %d \n \n", &arr + 1); 
     
 
 
-    printf("the value at addres of first element of the array is %d \n", *(&arr[0]));
-    printf("the value at addres of first element of the array is %d \n", *(arr));
-    printf("the value at addres of first element of the array is %d \n", *(&arr[1]));
-    printf("the value at addres of first element of the array is %d \n", *(arr + 1));
+    // printf("the value at addres of first element of the array is %d \n", *(&arr[0]));
+    // printf("the value at addres of first element of the array is %d \n", *(arr));
+    // printf("the value at addres of first element of the array is %d \n", *(&arr[1]));
+    // printf("the value at addres of first element of the array is %d \n", *(arr + 1));
 
     return 0;
 }

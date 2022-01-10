@@ -28,7 +28,10 @@ int main()
 
     char s1[10], s2[10], s3[10];
     printf("please enter the input : ");
+     getchar();
     gets(s1);
+    printf("please enter the input : ");
+     getchar();
     gets(s2);
     printf("%s and %s is friend \n", s1, s2);
     strcpy(s3, strcat(s1,s2));
