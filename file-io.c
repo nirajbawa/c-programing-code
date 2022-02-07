@@ -131,13 +131,13 @@ fopen("test.txt","r,w,a,r+");
 int main()
 {
     // reading 
-    // FILE *ptr = NULL;
+    FILE *ptr = NULL;
 
-    // char string[50];
+    char string[50];
 
-    // ptr = fopen("io.txt", "r");
-    // fscanf(ptr, "%s", string);
-    // printf("the content of this file has ;  %s\n", string);
+    ptr = fopen("io.txt", "r");
+    fscanf(ptr, "%s", string);
+    printf("the content of this file has : %s\n", string);
      
      //writing 
     //  FILE *ptr = NULL;
@@ -145,11 +145,11 @@ int main()
     //  ptr = fopen("io.txt", "w");
     //  fprintf(ptr, "%s", string);
 
-    //apand 
-     FILE *ptr = NULL;
-     char string[50] = "this txt";
-     ptr = fopen("io.txt", "a");
-     fprintf(ptr, "%s", string);
+    // //apand 
+    //  FILE *ptr = NULL;
+    //  char string[50] = "this txt";
+    //  ptr = fopen("io.txt", "a");
+    //  fprintf(ptr, "%s", string);
 
     return 0;
 }
