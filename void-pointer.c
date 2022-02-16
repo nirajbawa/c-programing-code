@@ -41,8 +41,10 @@ int main()
     // void-pointer.c:34:5: error: invalid use of void expression
     //  printf("the value of b is %d\n", *ptr);
 
+    // *((typeOfvar *)varName);
+
     // for printing value of address ptr
-    printf("the value of a is %d\n", *((int *)ptr));
+    printf("the value of a is %d\n",  *((int *)ptr) );
 
     // results :
     // the value of b is 345

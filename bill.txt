@@ -1,1 +1,1 @@
-Hello {{niraj}} thanks for buying {{photo}} from our shop.
+Hello {{niraj}} thanks for buying {{laptop}} from our shop.

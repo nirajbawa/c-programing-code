@@ -18,7 +18,7 @@ function for dynamic memory allocation in c
 2. it reserves a block of memory with the given amount of bytes.
 3. the retrun value is a void poointer to the allction space.
 4. therefore the void pointer needs tobe casted to the appropriate type as per the requirements.
-5. however, if the space is insufficient, alloction of memory fails and it returns anull pointer.
+5. however, if the space is insufficient, alloction of memory fails and it returns a null pointer.
 6. all the values at allcated memory are initilized to garbage values.
 
 syntax :
@@ -88,7 +88,7 @@ int main()
     }
 
     
-    //calloc
+    // calloc
     // int *ptr; //here are initialized pointer
     // int n;
     // printf("enter the size of the array you Want to create\n");
@@ -128,10 +128,10 @@ int main()
     // }
 
     //free
-
+  printf("ptr 1 is : %d \n", ptr[1]);
     //here are use free function
-    // free(ptr);
-
+    free(ptr);
+  
 
 
     return 0;

@@ -320,20 +320,20 @@ after changeing value : 4
 
 */
 
+// #include <stdio.h>
+
+// int func1()
+// {
+//     // static variable initial value is change when we use static variable
+//     static int myvar; //this is static variable storage class we need to defined static variable using static class
+//     printf("before changing value : %d\n",myvar);
+//     myvar++;
+//     printf("after changeing value : %d\n", myvar);
+//     return myvar;
+// }
+
+
 // 4. register variable storage class
-
-
-#include <stdio.h>
-
-int func1()
-{
-    // static variable initial value is change when we use static variable
-    static int myvar; //this is static variable storage class we need to defined static variable using static class
-    printf("before changing value : %d\n",myvar);
-    myvar++;
-    printf("after changeing value : %d\n", myvar);
-    return myvar;
-}
 
 
 

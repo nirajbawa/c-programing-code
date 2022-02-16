@@ -7,11 +7,11 @@
 
 //with arguments and without return value
 
-// void sub(int c, int d)
-// {
-//     int n = c-d;
-//     printf("%d\n", n);
-// }
+void sub(int c, int d)
+{
+    int n = c-d;
+    printf("%d\n", n);
+}
 
 //without arguments and with return value 
 
@@ -39,17 +39,17 @@
 
 // recursive functions
 
-int factorial(int number)
-{
-    if(number == 1 || number == 0)
-    {
-        return 1;
-    }
-    else
-    {
-        return (number * factorial(number - 1));
-    }
-}
+// int factorial(int number)
+// {
+//     if(number == 1 || number == 0)
+//     {
+//         return 1;
+//     }
+//     else
+//     {
+//         return (number * factorial(number - 1));
+//     }
+// }
 
 int main(int argc, char const *argv[])
 {
@@ -60,7 +60,7 @@ int main(int argc, char const *argv[])
     // printf("%d\n", output);
 
     //sub function
-    // sub(10,5);
+    sub(10,5);
 
     //mutiplication 
     // int multit = multiplication();
@@ -70,10 +70,10 @@ int main(int argc, char const *argv[])
     // division();
     
     // recursive function
-    int num;
-    printf("enter the number you want the factorial of\n");
-    scanf("%d", &num);
-    printf("the factorial of %d is %d\n", num, factorial(num));
+    // int num;
+    // printf("enter the number you want the factorial of\n");
+    // scanf("%d", &num);
+    // printf("the factorial of %d is %d\n", num, factorial(num));
     
     return 0;
 }
