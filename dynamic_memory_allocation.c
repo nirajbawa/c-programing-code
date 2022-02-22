@@ -75,7 +75,7 @@ int main()
     scanf("%d", &n);
 
     // here use malloc function
-    ptr = (int *)malloc(3 * sizeof(int));
+    ptr = (int *)malloc(n * sizeof(int));
 
     for (int i = 0; i<n; i++)
     {
@@ -128,7 +128,7 @@ int main()
     // }
 
     //free
-  printf("ptr 1 is : %d \n", ptr[1]);
+//   printf("ptr 1 is : %d \n", ptr[1]);
     //here are use free function
     free(ptr);
   

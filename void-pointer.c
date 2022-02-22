@@ -57,3 +57,9 @@ int main()
 
     return 0;
 }
+
+// void pointer
+
+// void *name;// declaration 
+// name = &name of pointing variable// definition 
+//typeofvar nameofvar =  *((typeofvar *)nameofvoidpointer);  dereferencing

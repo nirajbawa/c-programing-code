@@ -3,6 +3,9 @@
         "stdio.h": "c",
         "_mingw.h": "c",
         "string.h": "c",
-        "math.h": "c"
-    }
+        "math.h": "c",
+        "functional": "c",
+        "random": "c"
+    },
+    "C_Cpp.errorSquiggles": "Enabled"
 }
