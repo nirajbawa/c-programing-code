@@ -5,7 +5,9 @@
         "string.h": "c",
         "math.h": "c",
         "functional": "c",
-        "random": "c"
+        "random": "c",
+        "conio.h": "c"
     },
-    "C_Cpp.errorSquiggles": "Enabled"
+    "C_Cpp.errorSquiggles": "Enabled",
+    "editor.suggest.preview": true
 }

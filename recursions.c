@@ -8,9 +8,12 @@ int fib_recursive(int n)
     }
     else
     {
-        return fib_recursive(n-1) + fib_recursive(n-2);
+         fib_recursive(n-1) + fib_recursive(n-2);
     }
 }
+
+
+
 
 int fib_itterative(int n)
 {
@@ -27,9 +30,9 @@ int fib_itterative(int n)
 
 int main()
 {
-    int a = fib_recursive(44);
+    int a = fib_recursive(4);
     printf("%d\n",a);
-    int b  = fib_itterative(44);
+    int b  = fib_itterative(4);
     printf("%d",b);
    
     return 0;

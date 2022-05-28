@@ -76,7 +76,7 @@ int main()
 //         if(g==0)
 //         {
 //             // break; //break is only closing one loop The loop closes where it is declared
-//             goto end; // goto is closing all the loops 
+//             goto end; // goto end is closing all the loops 
 //         }
 //     }s
 // }

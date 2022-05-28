@@ -139,7 +139,7 @@ fopen("test.txt","r,w,a,r+");
 
 // writing
 //  FILE *ptr = NULL;
-//  char string[50] = "this txt";
+//  char [50] = "this txt";
 //  ptr = fopen("io.txt", "w");
 //  fprintf(ptr, "%s", string);
 
@@ -182,7 +182,7 @@ if it exists, otherwise creates a file it if does not exist.
 "a+"
 
 opens a text file for both reading and writing. it creates the file if it does
-not exist. the reading will start from the beginning but  writing can only append to file.
+not exist. the reading will start from the beginning but writing can only append to file.
 
 
 // other file i/o functions in  c
@@ -311,31 +311,31 @@ the character i read was : g
 
     * int fgets(const char*s, intn, FILE*fp);
 
-
-#include <stdio.h>
-
-int main()
-{
-    FILE * ptr = NULL;
-
-    ptr = fopen("myfile.txt", "r");
-
-    char string[4];
-
-    fgets(string, 3, ptr);
-
-    printf("the string is : %s\n", string);
-
-    fclose(ptr);
-
-    return 0;
-}
-
-output is :
-the string is : th
-
-
 */
+
+// #include <stdio.h>
+
+// int main()
+// {
+//     FILE * ptr = NULL;
+
+//     ptr = fopen("myfile.txt", "r");
+
+//     char string[4];
+
+//     fgets(string, 19, ptr);
+
+//     printf("the string is : %s\n", string);
+
+//     fclose(ptr);
+
+//     return 0;
+// }
+
+// output is :
+// the string is : th
+
+
 
 
 // "r+"
@@ -383,19 +383,19 @@ the string is : th
 
 // a++ mode we can perform 3 activity read write and append. in write mode it can't clearing old contant it's append new contant in end of old contant
 
-// #include <stdio.h>
+#include <stdio.h>
 
-// int main()
-// { 
-//     FILE * ptr = NULL;
-//     ptr = fopen("myfile.txt", "a+");
+int main()
+{ 
+    FILE * ptr = NULL;
+    ptr = fopen("myfile.txt", "a+");
 
-//     char string[2000];
-//     fgets(string, 2200, ptr);
-//     printf("contant is : %s", string);
-//     fputs("who are you ", ptr);
+    char string[2000];
+    fgets(string, 2200, ptr);
+    printf("contant is : %s", string);
+    fputs("who are you ", ptr);
 
-//     fclose(ptr);
+    fclose(ptr);
 
-//     return 0;
-// }
+    return 0;
+}

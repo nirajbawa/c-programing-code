@@ -1,1 +1,1 @@
-Hello {{niraj}} thanks for buying {{laptop}} from our shop.
+name: bava

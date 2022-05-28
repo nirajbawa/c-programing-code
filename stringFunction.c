@@ -33,11 +33,58 @@ int main()
     printf("please enter the input : ");
      getchar();
     gets(s2);
-    printf("%s and %s is friend \n", s1, s2);
-    strcpy(s3, strcat(s1,s2));
-    puts(s3);
- 
+    // printf("%s and %s is friend \n", s1, s2);
+    // strcpy(s3, strcat(s1,s2));
+    // puts(s3);
+    //str camp
 
+    if(strcmp(s1, s2)<0)
+    {
+        printf("s1 is less than s2 (so it's return <0)" );
+        //-1
+        // if the first non-matching character in str1 is lower (in ASCII) than that of str2.
+        // A IS 1
+        // B IS 2
+        // A < B
+        // TRUE THAN RETURN : -1
+    }
+    else if(strcmp(s1, s2)>0)
+    {
+        printf("s1 is greater than s2 (so it's return >0)");
+        //1
+        // if the first non-matching character in str1 is greater (in ASCII) than that of str2.
+        // A IS 1
+        // B IS 2
+        // B > A
+        // TRUE THAN RETURN : 1
+    }
+    else if(strcmp(s1, s2)==0)
+    {
+        printf("s1 is equal to s2 (so it's return 0)");
+        //0
+        // if strings are equal
+        // A IS 1
+        // A IS 1
+        // A == A
+        // TRUE THAN RETURN : 0
+    }
+ 
+//OUTPUT : 
+
+// 1. 
+// please enter the input : ABC
+// please enter the input : DCE
+// s1 is less than s2 (so it's return <0)
+
+// 2.
+// please enter the input : DEC
+// please enter the input : ABC
+// s1 is greater than s2 (so it's return >0)
+
+// 3.
+// please enter the input : ABC
+// please enter the input : ABC 
+// s1 is equal to s2 (so it's return 0)
  
 
     return 0;

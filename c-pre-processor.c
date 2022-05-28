@@ -70,7 +70,7 @@ preprocessing ---------> compilation --------> assembly ------------------------
 //    2. #include "myFlie.h" // the quotation marks say to look in the current directory.
 // * disk drive full path is allowed, but discouraged since it it not portable;
 //    1. #include <c\:program files\harry\\bhal\\somefile.h> //too specific.
-//    2. #include <sys/file.h> // relative and porable path to the standard locations. 
+//    2. #include <sys/file.h> // relative and portable path to the standard locations. 
 
 
 
